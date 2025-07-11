@@ -36,7 +36,7 @@ jobs:
         with:
           cloudflare_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           cloudflare_account_id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          project_name: 'smartcharts-champion'
+          project_name: 'smartcharts-champion-last'
           branch_name: 'master'
           node_version: ${{ env.NODE_VERSION }}
           flutter_version: ${{ env.FLUTTER_VERSION }}
